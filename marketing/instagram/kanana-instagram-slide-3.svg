@@ -1,31 +1,37 @@
 <svg width="1080" height="1350" viewBox="0 0 1080 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg3" x1="88" y1="79" x2="980" y2="1228" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F5F3FF"/>
-      <stop offset="1" stop-color="#FBCFE8"/>
+    <linearGradient id="bg3" x1="88" y1="84" x2="1002" y2="1244" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F0FF"/>
+      <stop offset="1" stop-color="#FFD5E8"/>
+    </linearGradient>
+    <linearGradient id="ring3" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F63BA8"/>
+      <stop offset="1" stop-color="#FF7C69"/>
     </linearGradient>
   </defs>
 
-  <rect width="1080" height="1350" rx="40" fill="url(#bg3)"/>
-  <rect x="88" y="82" width="904" height="1186" rx="42" fill="#111827"/>
+  <rect width="1080" height="1350" rx="42" fill="url(#bg3)"/>
+  <rect x="64" y="58" width="952" height="1234" rx="42" fill="#111827"/>
 
-  <text x="146" y="188" fill="#C084FC" font-size="34" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">지금 어디까지 왔나</text>
-  <text x="146" y="286" fill="#FFFFFF" font-size="80" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">초기 세일즈</text>
-  <text x="146" y="376" fill="#FFFFFF" font-size="80" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">가능 수준까지</text>
-  <text x="146" y="466" fill="#FFFFFF" font-size="80" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">끌어올림</text>
+  <g transform="translate(116 104)">
+    <path d="M52 0C82 0 108 11 129 31C149 51 160 78 160 108C160 138 149 164 129 185C108 205 82 216 52 216C22 216 -4 205 -24 185C-45 164 -56 138 -56 108C-56 78 -45 51 -24 31C-4 11 22 0 52 0ZM52 34C32 34 16 40 4 52C-8 65 -14 83 -14 108C-14 133 -8 151 4 164C16 176 32 182 52 182C72 182 88 176 100 164C112 151 118 133 118 108C118 83 112 65 100 52C88 40 72 34 52 34Z" fill="url(#ring3)"/>
+    <text x="202" y="142" fill="#F8FAFC" font-size="104" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">kanana</text>
+  </g>
 
-  <rect x="146" y="564" width="788" height="144" rx="28" fill="#1F2937"/>
-  <text x="184" y="624" fill="#F9FAFB" font-size="30" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">stub QA</text>
-  <text x="184" y="674" fill="#67E8F9" font-size="56" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">100 / 100 pass</text>
+  <text x="116" y="404" fill="#FFFFFF" font-size="82" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">지금 어디까지 왔나</text>
+  <text x="116" y="502" fill="#D7E2F3" font-size="34" font-weight="500" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">초기 세일즈와 파일럿 테스트가 가능한 수준까지 도달</text>
 
-  <rect x="146" y="748" width="788" height="144" rx="28" fill="#1F2937"/>
-  <text x="184" y="808" fill="#F9FAFB" font-size="30" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">live sample</text>
-  <text x="184" y="858" fill="#A7F3D0" font-size="56" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">12 / 12 pass</text>
+  <rect x="116" y="580" width="848" height="142" rx="28" fill="#1F2937"/>
+  <text x="160" y="638" fill="#F9FAFB" font-size="30" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">stub QA</text>
+  <text x="160" y="690" fill="#67E8F9" font-size="58" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">100 / 100 pass</text>
 
-  <rect x="146" y="932" width="788" height="188" rx="28" fill="#F9FAFB"/>
-  <text x="184" y="1000" fill="#111827" font-size="44" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">CTA</text>
-  <text x="184" y="1060" fill="#334155" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">교육용 AI를 로컬에서 신뢰 가능하게 쓰고 싶다면</text>
-  <text x="184" y="1100" fill="#334155" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">Kanana를 확인해 보세요.</text>
+  <rect x="116" y="756" width="848" height="142" rx="28" fill="#1F2937"/>
+  <text x="160" y="814" fill="#F9FAFB" font-size="30" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">live sample</text>
+  <text x="160" y="866" fill="#A7F3D0" font-size="58" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">12 / 12 pass</text>
 
-  <text x="146" y="1218" fill="#E9D5FF" font-size="40" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">github.com/techkwon/kanana</text>
+  <rect x="116" y="934" width="848" height="214" rx="30" fill="#F8FAFC"/>
+  <text x="160" y="1004" fill="#111827" font-size="42" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">CTA</text>
+  <text x="160" y="1068" fill="#334155" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">교육용 AI를 로컬에서 신뢰 가능하게 쓰고 싶다면</text>
+  <text x="160" y="1112" fill="#334155" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">Kanana를 확인해 보세요</text>
+  <text x="160" y="1188" fill="#111827" font-size="38" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">github.com/techkwon/kanana</text>
 </svg>

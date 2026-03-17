@@ -1,49 +1,45 @@
 <svg width="1080" height="1350" viewBox="0 0 1080 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="84" y1="76" x2="1013" y2="1283" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF4D7"/>
-      <stop offset="0.55" stop-color="#FFE1A8"/>
-      <stop offset="1" stop-color="#F59B4A"/>
+    <linearGradient id="bg1" x1="140" y1="84" x2="918" y2="1246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5D7"/>
+      <stop offset="0.58" stop-color="#FFD6B8"/>
+      <stop offset="1" stop-color="#FF8A6B"/>
     </linearGradient>
-    <linearGradient id="panel" x1="128" y1="184" x2="932" y2="1108" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#1E293B"/>
+    <linearGradient id="ring1" x1="0" y1="0" x2="170" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F63BA8"/>
+      <stop offset="1" stop-color="#FF7C69"/>
     </linearGradient>
   </defs>
 
-  <rect width="1080" height="1350" rx="40" fill="url(#bg)"/>
-  <circle cx="936" cy="184" r="164" fill="#FFF7E6" fill-opacity="0.55"/>
-  <circle cx="176" cy="1184" r="128" fill="#FFEBC4" fill-opacity="0.55"/>
+  <rect width="1080" height="1350" rx="42" fill="url(#bg1)"/>
+  <rect x="64" y="58" width="952" height="1234" rx="42" fill="#0B1220"/>
 
-  <rect x="92" y="86" width="896" height="1178" rx="42" fill="url(#panel)"/>
+  <g transform="translate(112 108)">
+    <path d="M76 0C117 0 153 15 181 44C210 73 224 110 224 153C224 196 210 232 181 261C153 289 117 304 76 304C36 304 0 289 -29 261C-57 232 -72 196 -72 153C-72 110 -57 73 -29 44C0 15 36 0 76 0ZM76 48C49 48 27 57 10 74C-8 91 -17 117 -17 153C-17 189 -8 215 10 232C27 248 49 256 76 256C104 256 126 248 143 232C161 215 170 189 170 153C170 117 161 91 143 74C126 57 104 48 76 48Z" fill="url(#ring1)"/>
+    <text x="280" y="196" fill="#F8FAFC" font-size="132" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">kanana</text>
+  </g>
 
-  <text x="146" y="188" fill="#FFD98B" font-size="36" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">KANANA</text>
-  <text x="146" y="286" fill="#FFFFFF" font-size="86" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">교육용 AI,</text>
-  <text x="146" y="384" fill="#FFFFFF" font-size="86" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">예쁜 데모로</text>
-  <text x="146" y="482" fill="#FFFFFF" font-size="86" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">끝내지 마세요</text>
+  <text x="116" y="530" fill="#FFFFFF" font-size="94" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">교육용 AI,</text>
+  <text x="116" y="640" fill="#FFFFFF" font-size="94" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">예쁜 데모로</text>
+  <text x="116" y="750" fill="#FFFFFF" font-size="94" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">끝내지 마세요</text>
 
-  <text x="146" y="598" fill="#D6E2F3" font-size="34" font-weight="500" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">설명, 퀴즈, 첨삭을 로컬에서 돌리고</text>
-  <text x="146" y="646" fill="#D6E2F3" font-size="34" font-weight="500" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">QA로 점수까지 보는 한국어 교육 AI CLI</text>
+  <text x="118" y="848" fill="#D7E2F3" font-size="34" font-weight="500" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">설명 · 퀴즈 · 첨삭을 로컬에서 돌리고</text>
+  <text x="118" y="894" fill="#D7E2F3" font-size="34" font-weight="500" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">QA까지 붙인 한국어 교육 AI CLI</text>
 
-  <rect x="146" y="732" width="786" height="130" rx="28" fill="#FFF6E3"/>
-  <text x="184" y="790" fill="#B45309" font-size="28" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">LIVE QA</text>
-  <text x="184" y="836" fill="#111827" font-size="54" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">100 케이스 체계 구축</text>
+  <rect x="116" y="966" width="266" height="156" rx="26" fill="#FFF1D6"/>
+  <text x="152" y="1020" fill="#B45309" font-size="24" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">QUALITY</text>
+  <text x="152" y="1086" fill="#111827" font-size="58" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">100/100</text>
+  <text x="152" y="1124" fill="#475569" font-size="22" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">stub QA pass</text>
 
-  <rect x="146" y="900" width="242" height="168" rx="28" fill="#FDE68A"/>
-  <text x="182" y="958" fill="#854D0E" font-size="24" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">QUALITY</text>
-  <text x="182" y="1038" fill="#111827" font-size="66" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">100</text>
-  <text x="182" y="1078" fill="#334155" font-size="24" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">stub pass</text>
+  <rect x="408" y="966" width="266" height="156" rx="26" fill="#EDE9FE"/>
+  <text x="444" y="1020" fill="#6D28D9" font-size="24" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">LIVE</text>
+  <text x="444" y="1086" fill="#111827" font-size="58" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">12/12</text>
+  <text x="444" y="1124" fill="#475569" font-size="22" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">sample pass</text>
 
-  <rect x="418" y="900" width="242" height="168" rx="28" fill="#C4B5FD"/>
-  <text x="454" y="958" fill="#5B21B6" font-size="24" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">LIVE</text>
-  <text x="454" y="1038" fill="#111827" font-size="66" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">12</text>
-  <text x="454" y="1078" fill="#334155" font-size="24" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">sample pass</text>
+  <rect x="700" y="966" width="266" height="156" rx="26" fill="#D1FAE5"/>
+  <text x="736" y="1020" fill="#0F766E" font-size="24" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">FORMAT</text>
+  <text x="736" y="1086" fill="#111827" font-size="58" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">JSON</text>
+  <text x="736" y="1124" fill="#475569" font-size="22" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">agent-ready</text>
 
-  <rect x="690" y="900" width="242" height="168" rx="28" fill="#99F6E4"/>
-  <text x="726" y="958" fill="#0F766E" font-size="24" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">OUTPUT</text>
-  <text x="726" y="1038" fill="#111827" font-size="66" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">JSON</text>
-  <text x="726" y="1078" fill="#334155" font-size="24" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">agent-ready</text>
-
-  <text x="146" y="1170" fill="#FFE7B3" font-size="30" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">교사 · 튜터 · 교육 스타트업 · AI 에이전트 워크플로</text>
-  <text x="146" y="1220" fill="#FFFFFF" font-size="42" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">github.com/techkwon/kanana</text>
+  <text x="116" y="1218" fill="#FFF1D6" font-size="28" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">교사 · 튜터 · 교육 스타트업 · AI 에이전트 워크플로</text>
 </svg>
