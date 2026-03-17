@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "misconceptions": [
+    {
+      "id": "science.light-as-food",
+      "domain": "science",
+      "label": "빛을 식물의 음식으로 오해",
+      "description": "빛을 에너지원이 아니라 음식 자체로 설명하는 오류",
+      "case_ids": [
+        "review-science-001"
+      ]
+    },
+    {
+      "id": "science.day-night-photosynthesis",
+      "domain": "science",
+      "label": "광합성 시간 오해",
+      "description": "광합성이 밤에만 일어난다고 오해하는 오류",
+      "case_ids": [
+        "review-science-002"
+      ]
+    },
+    {
+      "id": "science.evaporation-condensation-reversal",
+      "domain": "science",
+      "label": "증발 응결 반전",
+      "description": "증발과 응결의 방향을 반대로 설명하는 오류",
+      "case_ids": [
+        "review-science-003"
+      ]
+    },
+    {
+      "id": "science.orbit-period-mixup",
+      "domain": "science",
+      "label": "공전 주기 혼동",
+      "description": "하루와 1년 주기를 혼동하는 오류",
+      "case_ids": [
+        "review-science-004"
+      ]
+    },
+    {
+      "id": "science.ecosystem-omission",
+      "domain": "science",
+      "label": "생태계 구성 누락",
+      "description": "환경 요소를 빠뜨리고 생태계를 설명하는 오류",
+      "case_ids": [
+        "review-science-005"
+      ]
+    },
+    {
+      "id": "science.moonlight-causality",
+      "domain": "science",
+      "label": "달 위상 원인 혼동",
+      "description": "달의 모양 변화를 달 자체의 발광으로 설명하는 오류",
+      "case_ids": [
+        "review-science-006"
+      ]
+    },
+    {
+      "id": "math.denominator-misuse",
+      "domain": "math",
+      "label": "분모 용어 오용",
+      "description": "분자와 분모 위치를 혼동하는 오류",
+      "case_ids": [
+        "review-math-001"
+      ]
+    },
+    {
+      "id": "math.pythagorean-overgeneralization",
+      "domain": "math",
+      "label": "피타고라스 과잉 일반화",
+      "description": "피타고라스 정리를 모든 삼각형에 적용하는 오류",
+      "case_ids": [
+        "review-math-002"
+      ]
+    },
+    {
+      "id": "math.prime-one",
+      "domain": "math",
+      "label": "1을 소수로 오해",
+      "description": "1을 소수로 분류하는 오류",
+      "case_ids": [
+        "review-math-003"
+      ]
+    },
+    {
+      "id": "math.average-reversal",
+      "domain": "math",
+      "label": "평균 개념 반전",
+      "description": "평균을 가장 큰 수처럼 설명하는 오류",
+      "case_ids": [
+        "review-math-004"
+      ]
+    },
+    {
+      "id": "math.area-formula-misuse",
+      "domain": "math",
+      "label": "넓이 공식 오용",
+      "description": "직사각형 넓이를 덧셈으로 설명하는 오류",
+      "case_ids": [
+        "review-math-005"
+      ]
+    },
+    {
+      "id": "math.ratio-reversal",
+      "domain": "math",
+      "label": "비율 개념 반전",
+      "description": "비율을 뺄셈 비교로 설명하는 오류",
+      "case_ids": [
+        "review-math-006"
+      ]
+    },
+    {
+      "id": "social.democracy-reversal",
+      "domain": "social",
+      "label": "민주주의 개념 반전",
+      "description": "민주주의를 독재적으로 설명하는 오류",
+      "case_ids": [
+        "review-social-001"
+      ]
+    },
+    {
+      "id": "social.separation-omission",
+      "domain": "social",
+      "label": "삼권분립 요소 누락",
+      "description": "권력 분립 요소를 일부만 중요하다고 설명하는 오류",
+      "case_ids": [
+        "review-social-002"
+      ]
+    },
+    {
+      "id": "social.hunminjeongeum-causality",
+      "domain": "social",
+      "label": "훈민정음 목적 혼동",
+      "description": "훈민정음 창제 목적을 잘못 설명하는 오류",
+      "case_ids": [
+        "review-social-003"
+      ]
+    },
+    {
+      "id": "social.market-overgeneralization",
+      "domain": "social",
+      "label": "시장경제 과잉 일반화",
+      "description": "가격 결정 구조를 지나치게 단정하는 오류",
+      "case_ids": [
+        "review-social-004"
+      ]
+    },
+    {
+      "id": "social.heritage-omission",
+      "domain": "social",
+      "label": "문화유산 범위 누락",
+      "description": "문화유산을 건물로만 한정하는 오류",
+      "case_ids": [
+        "review-social-005"
+      ]
+    },
+    {
+      "id": "social.local-government-reversal",
+      "domain": "social",
+      "label": "지방자치 개념 반전",
+      "description": "지방자치를 중앙집권처럼 설명하는 오류",
+      "case_ids": [
+        "review-social-006"
+      ]
+    }
+  ]
+}

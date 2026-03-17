@@ -1,0 +1,1103 @@
+[
+  {
+    "domain": "humanities",
+    "command": "explain",
+    "id": "explain-004",
+    "topic": "민주주의",
+    "learner_level": "high",
+    "expected_keywords": [
+      "시민",
+      "선거"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "democracy"
+    ]
+  },
+  {
+    "domain": "humanities",
+    "command": "explain",
+    "id": "explain-005",
+    "topic": "삼권분립",
+    "learner_level": "high",
+    "expected_keywords": [
+      "입법",
+      "행정"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "separation"
+    ]
+  },
+  {
+    "domain": "humanities",
+    "command": "explain",
+    "id": "explain-009",
+    "topic": "역사 속 훈민정음",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "세종",
+      "문자"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "alphabet"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "math",
+    "id": "explain-math-001",
+    "topic": "피타고라스 정리",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "직각삼각형",
+      "빗변"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "The "
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "math",
+    "id": "explain-math-002",
+    "topic": "분수의 뜻",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "분자",
+      "분모"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "fraction"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "math",
+    "id": "explain-math-003",
+    "topic": "소수와 합성수",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "약수",
+      "나누어"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "prime"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "math",
+    "id": "explain-math-004",
+    "topic": "직사각형의 넓이",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "가로",
+      "세로"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "rectangle"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "math",
+    "id": "explain-math-005",
+    "topic": "평균",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "합",
+      "나누어"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "average"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "math",
+    "id": "explain-math-006",
+    "topic": "비와 비율",
+    "learner_level": "high",
+    "expected_keywords": [
+      "비교",
+      "기준"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "ratio"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "science",
+    "id": "explain-science-001",
+    "topic": "광합성",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "식물",
+      "햇빛"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "Photosynthesis"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "science",
+    "id": "explain-science-002",
+    "topic": "증발과 응결",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "물",
+      "수증기"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "evaporation"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "science",
+    "id": "explain-science-003",
+    "topic": "태양계",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "태양",
+      "행성"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "solar"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "science",
+    "id": "explain-science-004",
+    "topic": "먹이사슬",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "생물",
+      "먹이"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "food chain"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "science",
+    "id": "explain-science-005",
+    "topic": "화산 활동",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "마그마",
+      "분출"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "volcano"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "science",
+    "id": "explain-science-006",
+    "topic": "달의 위상 변화",
+    "learner_level": "high",
+    "expected_keywords": [
+      "달",
+      "태양"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "moon phase"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "social",
+    "id": "explain-social-001",
+    "topic": "민주주의",
+    "learner_level": "high",
+    "expected_keywords": [
+      "시민",
+      "선거"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "democracy"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "social",
+    "id": "explain-social-002",
+    "topic": "삼권분립",
+    "learner_level": "high",
+    "expected_keywords": [
+      "입법",
+      "행정"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "separation"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "social",
+    "id": "explain-social-003",
+    "topic": "훈민정음",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "세종",
+      "문자"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "alphabet"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "social",
+    "id": "explain-social-004",
+    "topic": "지방자치",
+    "learner_level": "high",
+    "expected_keywords": [
+      "지역",
+      "주민"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "local government"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "social",
+    "id": "explain-social-005",
+    "topic": "시장 경제",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "가격",
+      "거래"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "market economy"
+    ]
+  },
+  {
+    "command": "explain",
+    "domain": "social",
+    "id": "explain-social-006",
+    "topic": "문화유산",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "역사",
+      "보존"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "heritage"
+    ]
+  },
+  {
+    "domain": "humanities",
+    "command": "quiz",
+    "id": "quiz-005",
+    "topic": "민주주의",
+    "learner_level": "high",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "democracy"
+    ]
+  },
+  {
+    "domain": "humanities",
+    "command": "quiz",
+    "id": "quiz-008",
+    "topic": "훈민정음",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "hangul"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "math",
+    "id": "quiz-math-001",
+    "topic": "피타고라스 정리",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "quiz"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "math",
+    "id": "quiz-math-002",
+    "topic": "분수",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "fraction"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "math",
+    "id": "quiz-math-003",
+    "topic": "소수와 합성수",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "prime"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "math",
+    "id": "quiz-math-004",
+    "topic": "평균",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "average"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "math",
+    "id": "quiz-math-005",
+    "topic": "직사각형의 넓이",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "rectangle"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "math",
+    "id": "quiz-math-006",
+    "topic": "비율",
+    "learner_level": "high",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "ratio"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "science",
+    "id": "quiz-science-001",
+    "topic": "광합성",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "question"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "science",
+    "id": "quiz-science-002",
+    "topic": "증발과 응결",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "evaporation"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "science",
+    "id": "quiz-science-003",
+    "topic": "태양계",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "planet"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "science",
+    "id": "quiz-science-004",
+    "topic": "먹이사슬",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "food chain"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "science",
+    "id": "quiz-science-005",
+    "topic": "달의 위상 변화",
+    "learner_level": "high",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "moon"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "science",
+    "id": "quiz-science-006",
+    "topic": "화산 활동",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "volcano"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "social",
+    "id": "quiz-social-001",
+    "topic": "민주주의",
+    "learner_level": "high",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "democracy"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "social",
+    "id": "quiz-social-002",
+    "topic": "삼권분립",
+    "learner_level": "high",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "separation"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "social",
+    "id": "quiz-social-003",
+    "topic": "훈민정음",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "hangul"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "social",
+    "id": "quiz-social-004",
+    "topic": "지방자치",
+    "learner_level": "high",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "local government"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "social",
+    "id": "quiz-social-005",
+    "topic": "시장 경제",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "market economy"
+    ]
+  },
+  {
+    "command": "quiz",
+    "domain": "social",
+    "id": "quiz-social-006",
+    "topic": "문화유산",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "문제 1:",
+      "정답:",
+      "해설:"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "heritage"
+    ]
+  },
+  {
+    "domain": "humanities",
+    "command": "review",
+    "id": "review-005",
+    "submission": "민주주의는 한 사람이 모든 결정을 내리는 제도다.",
+    "learner_level": "high",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "democracy"
+    ]
+  },
+  {
+    "domain": "humanities",
+    "command": "review",
+    "id": "review-007",
+    "submission": "훈민정음은 세종대왕이 과학 실험을 위해 만들었다.",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "alphabet"
+    ]
+  },
+  {
+    "domain": "humanities",
+    "command": "review",
+    "id": "review-010",
+    "submission": "삼권분립은 입법부만 중요한 제도다.",
+    "learner_level": "high",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "separation"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "math",
+    "id": "review-math-001",
+    "submission": "분모는 분수에서 위에 쓰는 숫자다.",
+    "learner_level": "middle",
+    "misconception_id": "term-misuse",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "fraction"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "math",
+    "id": "review-math-002",
+    "submission": "피타고라스 정리는 모든 삼각형에 적용된다.",
+    "learner_level": "middle",
+    "misconception_id": "overgeneralization",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "theorem"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "math",
+    "id": "review-math-003",
+    "submission": "소수는 1도 포함한다.",
+    "learner_level": "middle",
+    "misconception_id": "term-misuse",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "prime"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "math",
+    "id": "review-math-004",
+    "submission": "평균은 가장 큰 수를 말한다.",
+    "learner_level": "elementary",
+    "misconception_id": "concept-reversal",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "average"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "math",
+    "id": "review-math-005",
+    "submission": "직사각형의 넓이는 가로와 세로를 더해서 구한다.",
+    "learner_level": "elementary",
+    "misconception_id": "term-misuse",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "rectangle"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "math",
+    "id": "review-math-006",
+    "submission": "비율은 두 수를 빼서 비교하는 방법이다.",
+    "learner_level": "high",
+    "misconception_id": "concept-reversal",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "ratio"
+    ]
+  },
+  {
+    "domain": "math",
+    "command": "review",
+    "id": "review-003",
+    "submission": "분모는 분수에서 위에 쓰는 숫자다.",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "fraction"
+    ]
+  },
+  {
+    "domain": "math",
+    "command": "review",
+    "id": "review-006",
+    "submission": "피타고라스 정리는 모든 삼각형에 적용된다.",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "theorem"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "science",
+    "id": "review-science-001",
+    "submission": "빛은 식물이 먹는 음식이다.",
+    "learner_level": "high",
+    "misconception_id": "feedback-misalignment",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "Photosynthesis"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "science",
+    "id": "review-science-002",
+    "submission": "광합성은 밤에만 일어난다.",
+    "learner_level": "elementary",
+    "misconception_id": "concept-reversal",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "photosynthesis"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "science",
+    "id": "review-science-003",
+    "submission": "증발은 기체가 액체로 바뀌는 현상이다.",
+    "learner_level": "middle",
+    "misconception_id": "concept-reversal",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "evaporation"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "science",
+    "id": "review-science-004",
+    "submission": "지구는 태양 주위를 하루에 한 바퀴 돈다.",
+    "learner_level": "middle",
+    "misconception_id": "cause-effect-mixup",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "solar"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "science",
+    "id": "review-science-005",
+    "submission": "생태계는 동물만으로 이루어진다.",
+    "learner_level": "high",
+    "misconception_id": "fact-omission",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "ecosystem"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "science",
+    "id": "review-science-006",
+    "submission": "달의 모양은 달이 스스로 빛을 내기 때문에 바뀐다.",
+    "learner_level": "middle",
+    "misconception_id": "cause-effect-mixup",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "moon"
+    ]
+  },
+  {
+    "domain": "science",
+    "command": "review",
+    "id": "review-001",
+    "submission": "빛은 식물이 먹는 음식이다.",
+    "learner_level": "high",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "Photosynthesis"
+    ]
+  },
+  {
+    "domain": "science",
+    "command": "review",
+    "id": "review-002",
+    "submission": "지구는 태양 주위를 하루에 한 바퀴 돈다.",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "solar"
+    ]
+  },
+  {
+    "domain": "science",
+    "command": "review",
+    "id": "review-004",
+    "submission": "광합성은 밤에만 일어난다.",
+    "learner_level": "elementary",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "photosynthesis"
+    ]
+  },
+  {
+    "domain": "science",
+    "command": "review",
+    "id": "review-008",
+    "submission": "생태계는 동물만으로 이루어진다.",
+    "learner_level": "high",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "ecosystem"
+    ]
+  },
+  {
+    "domain": "science",
+    "command": "review",
+    "id": "review-009",
+    "submission": "증발은 기체가 액체로 바뀌는 현상이다.",
+    "learner_level": "middle",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "evaporation"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "social",
+    "id": "review-social-001",
+    "submission": "민주주의는 한 사람이 모든 결정을 내리는 제도다.",
+    "learner_level": "high",
+    "misconception_id": "concept-reversal",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "democracy"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "social",
+    "id": "review-social-002",
+    "submission": "삼권분립은 입법부만 중요한 제도다.",
+    "learner_level": "high",
+    "misconception_id": "fact-omission",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "separation"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "social",
+    "id": "review-social-003",
+    "submission": "훈민정음은 세종대왕이 과학 실험을 위해 만들었다.",
+    "learner_level": "middle",
+    "misconception_id": "cause-effect-mixup",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "alphabet"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "social",
+    "id": "review-social-004",
+    "submission": "시장 경제에서는 가격을 사람들이 전혀 정하지 못한다.",
+    "learner_level": "middle",
+    "misconception_id": "overgeneralization",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "market economy"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "social",
+    "id": "review-social-005",
+    "submission": "문화유산은 오래된 건물만을 뜻한다.",
+    "learner_level": "elementary",
+    "misconception_id": "fact-omission",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "heritage"
+    ]
+  },
+  {
+    "command": "review",
+    "domain": "social",
+    "id": "review-social-006",
+    "submission": "지방자치는 중앙정부가 지역의 모든 일을 대신 결정하는 제도다.",
+    "learner_level": "high",
+    "misconception_id": "concept-reversal",
+    "expected_keywords": [
+      "잘한 점",
+      "고칠 점",
+      "바로 적용할 문장"
+    ],
+    "forbidden_keywords": [
+      "!!",
+      "local government"
+    ]
+  }
+]

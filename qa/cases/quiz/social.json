@@ -1,0 +1,15 @@
+{
+  "command": "quiz",
+  "domain": "social",
+  "cases": [
+    {"id":"quiz-social-001","topic":"민주주의","learner_level":"high","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","democracy"]},
+    {"id":"quiz-social-002","topic":"삼권분립","learner_level":"high","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","separation"]},
+    {"id":"quiz-social-003","topic":"훈민정음","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","hangul"]},
+    {"id":"quiz-social-004","topic":"지방자치","learner_level":"high","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","local government"]},
+    {"id":"quiz-social-005","topic":"시장 경제","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","market economy"]},
+    {"id":"quiz-social-006","topic":"문화유산","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","heritage"]},
+    {"id":"quiz-social-007","topic":"헌법","learner_level":"high","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","constitution"]},
+    {"id":"quiz-social-008","topic":"인권","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","human rights"]},
+    {"id":"quiz-social-009","topic":"공공기관","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","public institution"]}
+  ]
+}

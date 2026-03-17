@@ -1,0 +1,104 @@
+{
+  "domain": "science",
+  "command": "review",
+  "cases": [
+    {
+      "id": "review-001",
+      "submission": "빛은 식물이 먹는 음식이다.",
+      "learner_level": "high",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "Photosynthesis"
+      ]
+    },
+    {
+      "id": "review-002",
+      "submission": "지구는 태양 주위를 하루에 한 바퀴 돈다.",
+      "learner_level": "middle",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "solar"
+      ]
+    },
+    {
+      "id": "review-004",
+      "submission": "광합성은 밤에만 일어난다.",
+      "learner_level": "elementary",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "photosynthesis"
+      ]
+    },
+    {
+      "id": "review-008",
+      "submission": "생태계는 동물만으로 이루어진다.",
+      "learner_level": "high",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": "review-009",
+      "submission": "증발은 기체가 액체로 바뀌는 현상이다.",
+      "learner_level": "middle",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "evaporation"
+      ]
+    },
+    {
+      "id": "review-science-007",
+      "submission": "식물은 햇빛 없이도 언제나 광합성을 할 수 있다.",
+      "learner_level": "elementary",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "photosynthesis"]
+    },
+    {
+      "id": "review-science-008",
+      "submission": "태양계에는 태양이 포함되지 않는다.",
+      "learner_level": "elementary",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "solar"]
+    },
+    {
+      "id": "review-science-009",
+      "submission": "먹이사슬은 식물이 없어도 완성된다.",
+      "learner_level": "middle",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "food chain"]
+    },
+    {
+      "id": "review-science-010",
+      "submission": "화산 활동은 땅속의 얼음이 녹아 생긴다.",
+      "learner_level": "middle",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "volcano"]
+    }
+  ]
+}

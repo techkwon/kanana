@@ -1,0 +1,15 @@
+{
+  "command": "quiz",
+  "domain": "math",
+  "cases": [
+    {"id":"quiz-math-001","topic":"피타고라스 정리","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","quiz"]},
+    {"id":"quiz-math-002","topic":"분수","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","fraction"]},
+    {"id":"quiz-math-003","topic":"소수와 합성수","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","prime"]},
+    {"id":"quiz-math-004","topic":"평균","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","average"]},
+    {"id":"quiz-math-005","topic":"직사각형의 넓이","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","rectangle"]},
+    {"id":"quiz-math-006","topic":"비율","learner_level":"high","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","ratio"]},
+    {"id":"quiz-math-007","topic":"삼각형의 둘레","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","perimeter"]},
+    {"id":"quiz-math-008","topic":"약수와 배수","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","multiple"]},
+    {"id":"quiz-math-009","topic":"소수점","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","decimal"]}
+  ]
+}

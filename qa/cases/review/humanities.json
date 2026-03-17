@@ -1,0 +1,76 @@
+{
+  "domain": "humanities",
+  "command": "review",
+  "cases": [
+    {
+      "id": "review-005",
+      "submission": "민주주의는 한 사람이 모든 결정을 내리는 제도다.",
+      "learner_level": "high",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "democracy"
+      ]
+    },
+    {
+      "id": "review-007",
+      "submission": "훈민정음은 세종대왕이 과학 실험을 위해 만들었다.",
+      "learner_level": "middle",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "alphabet"
+      ]
+    },
+    {
+      "id": "review-010",
+      "submission": "삼권분립은 입법부만 중요한 제도다.",
+      "learner_level": "high",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "separation"
+      ]
+    },
+    {
+      "id": "review-humanities-004",
+      "submission": "문화유산은 오래된 건물만을 뜻한다.",
+      "learner_level": "elementary",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "heritage"]
+    },
+    {
+      "id": "review-humanities-005",
+      "submission": "지방자치는 중앙정부가 지역의 모든 일을 대신 결정하는 제도다.",
+      "learner_level": "high",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "local government"]
+    },
+    {
+      "id": "review-humanities-006",
+      "submission": "훈민정음은 백성이 아니라 왕만 쓰는 문자였다.",
+      "learner_level": "middle",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "alphabet"]
+    },
+    {
+      "id": "review-humanities-007",
+      "submission": "민주주의에서는 선거가 필요 없다.",
+      "learner_level": "high",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "democracy"]
+    }
+  ]
+}

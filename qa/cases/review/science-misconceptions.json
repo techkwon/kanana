@@ -1,0 +1,12 @@
+{
+  "command": "review",
+  "domain": "science",
+  "cases": [
+    {"id":"review-science-001","submission":"빛은 식물이 먹는 음식이다.","learner_level":"high","misconception_id":"feedback-misalignment","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","Photosynthesis"]},
+    {"id":"review-science-002","submission":"광합성은 밤에만 일어난다.","learner_level":"elementary","misconception_id":"concept-reversal","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","photosynthesis"]},
+    {"id":"review-science-003","submission":"증발은 기체가 액체로 바뀌는 현상이다.","learner_level":"middle","misconception_id":"concept-reversal","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","evaporation"]},
+    {"id":"review-science-004","submission":"지구는 태양 주위를 하루에 한 바퀴 돈다.","learner_level":"middle","misconception_id":"cause-effect-mixup","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","solar"]},
+    {"id":"review-science-005","submission":"생태계는 동물만으로 이루어진다.","learner_level":"high","misconception_id":"fact-omission","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","ecosystem"]},
+    {"id":"review-science-006","submission":"달의 모양은 달이 스스로 빛을 내기 때문에 바뀐다.","learner_level":"middle","misconception_id":"cause-effect-mixup","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","moon"]}
+  ]
+}

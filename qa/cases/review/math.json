@@ -1,0 +1,62 @@
+{
+  "domain": "math",
+  "command": "review",
+  "cases": [
+    {
+      "id": "review-003",
+      "submission": "분모는 분수에서 위에 쓰는 숫자다.",
+      "learner_level": "middle",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "fraction"
+      ]
+    },
+    {
+      "id": "review-006",
+      "submission": "피타고라스 정리는 모든 삼각형에 적용된다.",
+      "learner_level": "middle",
+      "expected_keywords": [
+        "잘한 점",
+        "고칠 점",
+        "바로 적용할 문장"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "theorem"
+      ]
+    },
+    {
+      "id": "review-math-007",
+      "submission": "평균은 수를 모두 더하지 않고 가장 큰 수를 고르면 된다.",
+      "learner_level": "middle",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "average"]
+    },
+    {
+      "id": "review-math-008",
+      "submission": "직사각형의 넓이는 가로와 세로를 더해 구한다.",
+      "learner_level": "elementary",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "rectangle"]
+    },
+    {
+      "id": "review-math-009",
+      "submission": "소수는 1과 0을 모두 포함한다.",
+      "learner_level": "middle",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "prime"]
+    },
+    {
+      "id": "review-math-010",
+      "submission": "분자는 아래에 쓰고 분모는 위에 쓴다.",
+      "learner_level": "elementary",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "fraction"]
+    }
+  ]
+}

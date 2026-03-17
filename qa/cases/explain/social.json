@@ -1,0 +1,12 @@
+{
+  "command": "explain",
+  "domain": "social",
+  "cases": [
+    {"id":"explain-social-001","topic":"민주주의","learner_level":"high","expected_keywords":["시민","선거"],"forbidden_keywords":["!!","democracy"]},
+    {"id":"explain-social-002","topic":"삼권분립","learner_level":"high","expected_keywords":["입법","행정"],"forbidden_keywords":["!!","separation"]},
+    {"id":"explain-social-003","topic":"훈민정음","learner_level":"middle","expected_keywords":["세종","문자"],"forbidden_keywords":["!!","alphabet"]},
+    {"id":"explain-social-004","topic":"지방자치","learner_level":"high","expected_keywords":["지역","주민"],"forbidden_keywords":["!!","local government"]},
+    {"id":"explain-social-005","topic":"시장 경제","learner_level":"middle","expected_keywords":["가격","거래"],"forbidden_keywords":["!!","market economy"]},
+    {"id":"explain-social-006","topic":"문화유산","learner_level":"elementary","expected_keywords":["역사","보존"],"forbidden_keywords":["!!","heritage"]}
+  ]
+}

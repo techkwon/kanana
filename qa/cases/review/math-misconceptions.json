@@ -1,0 +1,12 @@
+{
+  "command": "review",
+  "domain": "math",
+  "cases": [
+    {"id":"review-math-001","submission":"분모는 분수에서 위에 쓰는 숫자다.","learner_level":"middle","misconception_id":"term-misuse","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","fraction"]},
+    {"id":"review-math-002","submission":"피타고라스 정리는 모든 삼각형에 적용된다.","learner_level":"middle","misconception_id":"overgeneralization","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","theorem"]},
+    {"id":"review-math-003","submission":"소수는 1도 포함한다.","learner_level":"middle","misconception_id":"term-misuse","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","prime"]},
+    {"id":"review-math-004","submission":"평균은 가장 큰 수를 말한다.","learner_level":"elementary","misconception_id":"concept-reversal","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","average"]},
+    {"id":"review-math-005","submission":"직사각형의 넓이는 가로와 세로를 더해서 구한다.","learner_level":"elementary","misconception_id":"term-misuse","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","rectangle"]},
+    {"id":"review-math-006","submission":"비율은 두 수를 빼서 비교하는 방법이다.","learner_level":"high","misconception_id":"concept-reversal","expected_keywords":["잘한 점","고칠 점","바로 적용할 문장"],"forbidden_keywords":["!!","ratio"]}
+  ]
+}

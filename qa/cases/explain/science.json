@@ -1,0 +1,12 @@
+{
+  "command": "explain",
+  "domain": "science",
+  "cases": [
+    {"id":"explain-science-001","topic":"광합성","learner_level":"elementary","expected_keywords":["식물","햇빛"],"forbidden_keywords":["!!","Photosynthesis"]},
+    {"id":"explain-science-002","topic":"증발과 응결","learner_level":"middle","expected_keywords":["물","수증기"],"forbidden_keywords":["!!","evaporation"]},
+    {"id":"explain-science-003","topic":"태양계","learner_level":"elementary","expected_keywords":["태양","행성"],"forbidden_keywords":["!!","solar"]},
+    {"id":"explain-science-004","topic":"먹이사슬","learner_level":"middle","expected_keywords":["생물","먹이"],"forbidden_keywords":["!!","food chain"]},
+    {"id":"explain-science-005","topic":"화산 활동","learner_level":"middle","expected_keywords":["마그마","분출"],"forbidden_keywords":["!!","volcano"]},
+    {"id":"explain-science-006","topic":"달의 위상 변화","learner_level":"high","expected_keywords":["달","태양"],"forbidden_keywords":["!!","moon phase"]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "command": "explain",
+  "domain": "math",
+  "cases": [
+    {"id":"explain-math-001","topic":"피타고라스 정리","learner_level":"middle","expected_keywords":["직각삼각형","빗변"],"forbidden_keywords":["!!","The "]},
+    {"id":"explain-math-002","topic":"분수의 뜻","learner_level":"elementary","expected_keywords":["분자","분모"],"forbidden_keywords":["!!","fraction"]},
+    {"id":"explain-math-003","topic":"소수와 합성수","learner_level":"middle","expected_keywords":["약수","나누어"],"forbidden_keywords":["!!","prime"]},
+    {"id":"explain-math-004","topic":"직사각형의 넓이","learner_level":"elementary","expected_keywords":["가로","세로"],"forbidden_keywords":["!!","rectangle"]},
+    {"id":"explain-math-005","topic":"평균","learner_level":"middle","expected_keywords":["합","나누어"],"forbidden_keywords":["!!","average"]},
+    {"id":"explain-math-006","topic":"비와 비율","learner_level":"high","expected_keywords":["비교","기준"],"forbidden_keywords":["!!","ratio"]}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "domain": "social",
+  "command": "review",
+  "cases": [
+    {
+      "id": "review-social-007",
+      "submission": "시장 경제에서는 거래가 이루어지지 않는다.",
+      "learner_level": "middle",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "market economy"]
+    },
+    {
+      "id": "review-social-008",
+      "submission": "인권은 어른에게만 적용되는 권리다.",
+      "learner_level": "middle",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "human rights"]
+    },
+    {
+      "id": "review-social-009",
+      "submission": "헌법은 한 번 만들면 절대 바꿀 수 없다.",
+      "learner_level": "high",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "constitution"]
+    },
+    {
+      "id": "review-social-010",
+      "submission": "공공기관은 국민을 위해 일하지 않는다.",
+      "learner_level": "elementary",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "public institution"]
+    },
+    {
+      "id": "review-social-011",
+      "submission": "지방자치는 주민 의견과 상관없이 운영된다.",
+      "learner_level": "high",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "local government"]
+    },
+    {
+      "id": "review-social-012",
+      "submission": "문화유산은 현재 생활과 아무 관련이 없다.",
+      "learner_level": "elementary",
+      "expected_keywords": ["잘한 점", "고칠 점", "바로 적용할 문장"],
+      "forbidden_keywords": ["!!", "heritage"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "domain": "humanities",
+  "command": "explain",
+  "cases": [
+    {
+      "id": "explain-004",
+      "topic": "민주주의",
+      "learner_level": "high",
+      "expected_keywords": [
+        "시민",
+        "선거"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "democracy"
+      ]
+    },
+    {
+      "id": "explain-005",
+      "topic": "삼권분립",
+      "learner_level": "high",
+      "expected_keywords": [
+        "입법",
+        "행정"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "separation"
+      ]
+    },
+    {
+      "id": "explain-009",
+      "topic": "역사 속 훈민정음",
+      "learner_level": "middle",
+      "expected_keywords": [
+        "세종",
+        "문자"
+      ],
+      "forbidden_keywords": [
+        "!!",
+        "alphabet"
+      ]
+    }
+  ]
+}

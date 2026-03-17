@@ -1,0 +1,15 @@
+{
+  "command": "quiz",
+  "domain": "science",
+  "cases": [
+    {"id":"quiz-science-001","topic":"광합성","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","question"]},
+    {"id":"quiz-science-002","topic":"증발과 응결","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","evaporation"]},
+    {"id":"quiz-science-003","topic":"태양계","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","planet"]},
+    {"id":"quiz-science-004","topic":"먹이사슬","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","food chain"]},
+    {"id":"quiz-science-005","topic":"달의 위상 변화","learner_level":"high","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","moon"]},
+    {"id":"quiz-science-006","topic":"화산 활동","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","volcano"]},
+    {"id":"quiz-science-007","topic":"물의 상태 변화","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","state change"]},
+    {"id":"quiz-science-008","topic":"기체와 액체","learner_level":"elementary","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","gas"]},
+    {"id":"quiz-science-009","topic":"지층","learner_level":"middle","expected_keywords":["문제 1:","정답:","해설:"],"forbidden_keywords":["!!","strata"]}
+  ]
+}
