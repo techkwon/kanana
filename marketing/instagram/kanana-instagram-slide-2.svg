@@ -1,0 +1,30 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="117" y1="98" x2="947" y2="1234" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F2FE"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1350" rx="40" fill="url(#bg2)"/>
+  <rect x="90" y="84" width="900" height="1182" rx="46" fill="#07111F"/>
+
+  <text x="146" y="192" fill="#60A5FA" font-size="34" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">왜 필요한가</text>
+  <text x="146" y="286" fill="#FFFFFF" font-size="78" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">교육 AI는</text>
+  <text x="146" y="374" fill="#FFFFFF" font-size="78" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">“한 번 잘 나오는 것”보다</text>
+  <text x="146" y="462" fill="#FFFFFF" font-size="78" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">“계속 안 무너지는 것”이 중요</text>
+
+  <rect x="146" y="560" width="788" height="160" rx="30" fill="#0F172A" stroke="#334155" stroke-width="3"/>
+  <text x="184" y="628" fill="#FFFFFF" font-size="44" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">문제</text>
+  <text x="184" y="684" fill="#CBD5E1" font-size="30" font-weight="500" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">대부분의 로컬 AI 프로젝트는 데모는 좋은데</text>
+  <text x="184" y="724" fill="#CBD5E1" font-size="30" font-weight="500" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">반복 호출하면 문장, 포맷, 정확도가 흔들립니다</text>
+
+  <rect x="146" y="772" width="788" height="278" rx="30" fill="#F8FAFC"/>
+  <text x="184" y="844" fill="#111827" font-size="44" font-weight="800" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">Kanana 방식</text>
+  <text x="184" y="906" fill="#0F172A" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">1. 구조화 JSON 생성 우선</text>
+  <text x="184" y="956" fill="#0F172A" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">2. 실패하면 deterministic fallback</text>
+  <text x="184" y="1006" fill="#0F172A" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">3. 오개념은 taxonomy로 분류</text>
+  <text x="184" y="1056" fill="#0F172A" font-size="30" font-weight="600" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">4. QA harness로 계속 점수화</text>
+
+  <text x="146" y="1158" fill="#0F172A" font-size="34" font-weight="700" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif">결론: “교육용으로 버티는 AI”를 만들자는 접근</text>
+</svg>
