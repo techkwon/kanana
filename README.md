@@ -234,6 +234,18 @@ Kanana는 로직을 바깥으로 흩뿌리지 않습니다.
 
 이 어댑터들은 모두 얇게 유지하고, 실제 판단은 Kanana CLI 안에서 하도록 설계했습니다.
 
+## 실제 스킬 파일
+
+README만 있는 게 아니라, 바로 붙여 쓸 수 있는 스킬 파일도 포함했습니다.
+
+- `skills/codex-cli/SKILL.md`
+- `skills/claude-code/SKILL.md`
+- `skills/opencode/SKILL.md`
+- `skills/openclaw/SKILL.md`
+
+이 스킬들은 모두 Kanana CLI를 얇게 감싸는 역할만 하며,
+교육 로직과 안전 로직은 Kanana 본체 안에 유지합니다.
+
 ## 현재 포지셔닝
 
 가장 정확한 한 줄은 이겁니다.
