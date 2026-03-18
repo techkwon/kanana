@@ -1,11 +1,11 @@
 ---
-name: kanana-claude-code
-description: Use Kanana from Claude Code for local Korean education workflows with structured explain, quiz, review, safety, and template generation.
+name: eduflow-claude-code
+description: Use Eduflow from Claude Code for local Korean education workflows with structured explain, quiz, review, safety, and template generation.
 ---
 
-# Kanana for Claude Code
+# Eduflow for Claude Code
 
-Use this skill when Claude Code should delegate educational output generation to Kanana.
+Use this skill when Claude Code should delegate educational output generation to Eduflow.
 
 ## Good Fit
 
@@ -20,27 +20,27 @@ Use this skill when Claude Code should delegate educational output generation to
 Explain:
 
 ```bash
-printf '%s' '{"input":{"topic":"민주주의"},"audience":{"learner_level":"high"},"session":{"save":false}}' | kanana explain
+printf '%s' '{"input":{"topic":"민주주의"},"audience":{"learner_level":"high"},"session":{"save":false}}' | eduflow explain
 ```
 
 Quiz:
 
 ```bash
-printf '%s' '{"input":{"topic":"분수의 뜻"},"audience":{"learner_level":"elementary"},"session":{"save":false}}' | kanana quiz
+printf '%s' '{"input":{"topic":"분수의 뜻"},"audience":{"learner_level":"elementary"},"session":{"save":false}}' | eduflow quiz
 ```
 
 Review:
 
 ```bash
-printf '%s' '{"input":{"submission":"민주주의는 한 사람이 모든 결정을 내리는 제도다."},"audience":{"learner_level":"high"},"session":{"save":false}}' | kanana review
+printf '%s' '{"input":{"submission":"민주주의는 한 사람이 모든 결정을 내리는 제도다."},"audience":{"learner_level":"high"},"session":{"save":false}}' | eduflow review
 ```
 
 ## Operating Rules
 
-- Use Kanana JSON as the source of truth.
+- Use Eduflow JSON as the source of truth.
 - Keep Claude Code as the orchestrator, not the educational reasoning engine.
 - Preserve `ok`, `result`, `meta`, and `error` fields when surfacing outputs.
-- If Kanana returns a safety block, show that block instead of rewriting around it.
+- If Eduflow returns a safety block, show that block instead of rewriting around it.
 
 ## Recommended Defaults
 

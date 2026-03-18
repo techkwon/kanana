@@ -1,7 +1,7 @@
 import unittest
 
-from kanana_cli.contracts.errors import SafetyViolationError
-from kanana_cli.safety.pipeline import evaluate_safety
+from eduflow_cli.contracts.errors import SafetyViolationError
+from eduflow_cli.safety.pipeline import evaluate_safety
 
 
 class SafetyPipelineTests(unittest.TestCase):

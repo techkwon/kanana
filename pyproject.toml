@@ -3,16 +3,16 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "kanana"
+name = "eduflow-cli"
 version = "0.1.0"
 description = "Local-first JSON-first educator CLI with Ollama runtime adapters"
 readme = "README.md"
 requires-python = ">=3.9"
-authors = [{name = "Kanana"}]
+authors = [{name = "Eduflow"}]
 dependencies = []
 
 [project.scripts]
-kanana = "kanana_cli.main:main"
+eduflow = "eduflow_cli.main:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

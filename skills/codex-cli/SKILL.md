@@ -1,11 +1,11 @@
 ---
-name: kanana-codex-cli
-description: Use Kanana from Codex CLI to generate Korean education outputs with JSON-first contracts for explain, quiz, review, safety.check, kakao.template, and health.
+name: eduflow-codex-cli
+description: Use Eduflow from Codex CLI to generate Korean education outputs with JSON-first contracts for explain, quiz, review, safety.check, kakao.template, and health.
 ---
 
-# Kanana for Codex CLI
+# Eduflow for Codex CLI
 
-Use this skill when you want Codex CLI to call Kanana instead of inventing free-form educational output.
+Use this skill when you want Codex CLI to call Eduflow instead of inventing free-form educational output.
 
 ## Use When
 
@@ -22,35 +22,35 @@ Always pass JSON through stdin and read JSON from stdout.
 Explain:
 
 ```bash
-printf '%s' '{"input":{"topic":"피타고라스 정리"},"audience":{"learner_level":"middle"},"session":{"save":false}}' | kanana explain
+printf '%s' '{"input":{"topic":"피타고라스 정리"},"audience":{"learner_level":"middle"},"session":{"save":false}}' | eduflow explain
 ```
 
 Quiz:
 
 ```bash
-printf '%s' '{"input":{"topic":"광합성"},"audience":{"learner_level":"elementary"},"session":{"save":false}}' | kanana quiz
+printf '%s' '{"input":{"topic":"광합성"},"audience":{"learner_level":"elementary"},"session":{"save":false}}' | eduflow quiz
 ```
 
 Review:
 
 ```bash
-printf '%s' '{"input":{"submission":"빛은 식물이 먹는 음식이다."},"audience":{"learner_level":"high"},"session":{"save":false}}' | kanana review
+printf '%s' '{"input":{"submission":"빛은 식물이 먹는 음식이다."},"audience":{"learner_level":"high"},"session":{"save":false}}' | eduflow review
 ```
 
 Health:
 
 ```bash
-kanana health
+eduflow health
 ```
 
 ## Rules
 
 - Do not duplicate safety logic in Codex prompts.
-- Do not reformat Kanana output into prose unless the user explicitly asks.
+- Do not reformat Eduflow output into prose unless the user explicitly asks.
 - Treat non-zero exit codes as structured failures.
-- Prefer Kanana output over improvised educational text.
+- Prefer Eduflow output over improvised educational text.
 
 ## Notes
 
-- Best for agent workflows because Kanana returns stable JSON envelopes.
+- Best for agent workflows because Eduflow returns stable JSON envelopes.
 - Keep `session.save=false` for transient tool calls unless persistence is explicitly useful.

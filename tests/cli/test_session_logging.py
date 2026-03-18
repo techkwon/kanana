@@ -13,14 +13,14 @@ class SessionLoggingCliTests(unittest.TestCase):
     def test_explain_writes_session_file_and_redacts_secrets(self):
         env = os.environ.copy()
         env["PYTHONPATH"] = str(ROOT / "src")
-        env["KANANA_USE_STUB_RUNTIME"] = "1"
+        env["EDUFLOW_USE_STUB_RUNTIME"] = "1"
         with tempfile.TemporaryDirectory() as temp_dir:
-            env["KANANA_SESSION_DIR"] = temp_dir
+            env["EDUFLOW_SESSION_DIR"] = temp_dir
             proc = subprocess.run(
                 [
                     sys.executable,
                     "-m",
-                    "kanana_cli.main",
+                    "eduflow_cli.main",
                     "explain",
                     "--session-id",
                     "abc123",

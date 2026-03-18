@@ -1,10 +1,10 @@
 import unittest
 from unittest.mock import patch
 
-from kanana_cli.cli.common import execute_generation
-from kanana_cli.contracts.requests import build_request_envelope
-from kanana_cli.output.quality import clean_generated_text
-from kanana_cli.output.structured import render_explain_fallback
+from eduflow_cli.cli.common import execute_generation
+from eduflow_cli.contracts.requests import build_request_envelope
+from eduflow_cli.output.quality import clean_generated_text
+from eduflow_cli.output.structured import render_explain_fallback
 
 
 class OutputQualityTests(unittest.TestCase):
@@ -33,8 +33,8 @@ if __name__ == "__main__":
 class StructuredFallbackRoutingTests(unittest.TestCase):
     def test_explain_retries_structured_generation_before_fallback(self):
         envelope = build_request_envelope(source={"input": {"topic": "fractions"}, "session": {"save": False}})
-        with patch("kanana_cli.cli.common.OllamaClient.generate_json") as generate_json, patch(
-            "kanana_cli.cli.common.OllamaClient.generate"
+        with patch("eduflow_cli.cli.common.OllamaClient.generate_json") as generate_json, patch(
+            "eduflow_cli.cli.common.OllamaClient.generate"
         ) as generate:
             generate_json.side_effect = [
                 ValueError("bad json"),
@@ -55,8 +55,8 @@ class StructuredFallbackRoutingTests(unittest.TestCase):
 
     def test_quiz_uses_cleaned_model_text_before_static_template(self):
         envelope = build_request_envelope(source={"input": {"topic": "광합성"}, "session": {"save": False}})
-        with patch("kanana_cli.cli.common.OllamaClient.generate_json", side_effect=ValueError("bad json")), patch(
-            "kanana_cli.cli.common.OllamaClient.generate",
+        with patch("eduflow_cli.cli.common.OllamaClient.generate_json", side_effect=ValueError("bad json")), patch(
+            "eduflow_cli.cli.common.OllamaClient.generate",
             return_value="문제 1: 광합성은 무엇인가요??!!\n\n정답: 식물이 양분을 만듭니다.!!",
         ):
             payload = execute_generation("quiz", envelope)
@@ -69,8 +69,8 @@ class StructuredFallbackRoutingTests(unittest.TestCase):
 
     def test_review_falls_back_to_static_template_when_model_text_is_blank(self):
         envelope = build_request_envelope(source={"input": {"submission": "빛은 식물의 음식"}, "session": {"save": False}})
-        with patch("kanana_cli.cli.common.OllamaClient.generate_json", side_effect=ValueError("bad json")), patch(
-            "kanana_cli.cli.common.OllamaClient.generate", return_value="   \n\n  "
+        with patch("eduflow_cli.cli.common.OllamaClient.generate_json", side_effect=ValueError("bad json")), patch(
+            "eduflow_cli.cli.common.OllamaClient.generate", return_value="   \n\n  "
         ):
             payload = execute_generation("review", envelope)
 

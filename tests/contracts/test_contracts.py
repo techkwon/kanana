@@ -1,7 +1,7 @@
 import unittest
 
-from kanana_cli.contracts.errors import InputValidationError
-from kanana_cli.contracts.requests import build_request_envelope
+from eduflow_cli.contracts.errors import InputValidationError
+from eduflow_cli.contracts.requests import build_request_envelope
 
 
 class ContractTests(unittest.TestCase):

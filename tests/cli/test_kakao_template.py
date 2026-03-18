@@ -13,7 +13,7 @@ class KakaoTemplateCliTests(unittest.TestCase):
         env = os.environ.copy()
         env["PYTHONPATH"] = str(ROOT / "src")
         proc = subprocess.run(
-            [sys.executable, "-m", "kanana_cli.main", "kakao.template", "--topic", "science fair", "--no-save"],
+            [sys.executable, "-m", "eduflow_cli.main", "kakao.template", "--topic", "science fair", "--no-save"],
             cwd=ROOT,
             env=env,
             capture_output=True,

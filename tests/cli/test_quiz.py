@@ -5,7 +5,7 @@ import sys
 import unittest
 from pathlib import Path
 
-from kanana_cli.output.structured import validate_structured_payload
+from eduflow_cli.output.structured import validate_structured_payload
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -14,9 +14,9 @@ class QuizCliTests(unittest.TestCase):
     def test_quiz_command_uses_level_guidance(self):
         env = os.environ.copy()
         env["PYTHONPATH"] = str(ROOT / "src")
-        env["KANANA_USE_STUB_RUNTIME"] = "1"
+        env["EDUFLOW_USE_STUB_RUNTIME"] = "1"
         proc = subprocess.run(
-            [sys.executable, "-m", "kanana_cli.main", "quiz", "--topic", "photosynthesis", "--learner-level", "middle", "--no-save"],
+            [sys.executable, "-m", "eduflow_cli.main", "quiz", "--topic", "photosynthesis", "--learner-level", "middle", "--no-save"],
             cwd=ROOT,
             env=env,
             capture_output=True,

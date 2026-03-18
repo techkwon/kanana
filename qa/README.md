@@ -1,6 +1,6 @@
 # QA case layout
 
-Kanana QA cases are grouped under `qa/cases/<command>/<domain>.json`.
+Eduflow QA cases are grouped under `qa/cases/<command>/<domain>.json`.
 
 ## File shape
 

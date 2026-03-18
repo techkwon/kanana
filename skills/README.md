@@ -1,4 +1,4 @@
-# Kanana Skills
+# Eduflow Skills
 
 This directory contains ready-to-use skill files for:
 
@@ -7,13 +7,13 @@ This directory contains ready-to-use skill files for:
 - OpenCode
 - OpenClaw
 
-Each skill is a thin adapter over the `kanana` CLI.
+Each skill is a thin adapter over the `eduflow` CLI.
 
 The rule is simple:
 
 - collect user intent
-- convert it to the Kanana JSON request envelope
-- invoke `kanana`
+- convert it to the Eduflow JSON request envelope
+- invoke `eduflow`
 - consume the JSON response
 
-Business logic, safety policy, fallback handling, and QA stay inside Kanana itself.
+Business logic, safety policy, fallback handling, and QA stay inside Eduflow itself.

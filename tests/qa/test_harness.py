@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from kanana_cli.qa_harness import (
+from eduflow_cli.qa_harness import (
     CaseResult,
     load_cases,
     load_taxonomy,

@@ -12,11 +12,11 @@ class EndToEndJsonTests(unittest.TestCase):
     def test_health_explain_and_safety_are_json(self):
         env = os.environ.copy()
         env["PYTHONPATH"] = str(ROOT / "src")
-        env["KANANA_USE_STUB_RUNTIME"] = "1"
+        env["EDUFLOW_USE_STUB_RUNTIME"] = "1"
         commands = [
-            [sys.executable, "-m", "kanana_cli.main", "health"],
-            [sys.executable, "-m", "kanana_cli.main", "explain", "--topic", "fractions", "--no-save"],
-            [sys.executable, "-m", "kanana_cli.main", "safety.check", "--topic", "fractions", "--no-save"],
+            [sys.executable, "-m", "eduflow_cli.main", "health"],
+            [sys.executable, "-m", "eduflow_cli.main", "explain", "--topic", "fractions", "--no-save"],
+            [sys.executable, "-m", "eduflow_cli.main", "safety.check", "--topic", "fractions", "--no-save"],
         ]
         for command in commands:
             proc = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True)
